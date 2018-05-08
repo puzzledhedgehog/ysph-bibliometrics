@@ -1,0 +1,890 @@
+﻿-bash: $'\r': command not found
+-bash: $'\r': command not found
+
+kn338@KN338-WIN7 ~
+$ efetch -db pubmed -id 28555073,
+28141801,
+28300969,
+28138046,
+28221118,
+27927858,
+28352293,
+27914834,
+27780498,
+27812211,
+27798305,
+27551005,
+27454521,
+27645785,
+27487084,
+27716170,
+27205899,
+27141082,
+27113476,
+27088272,
+27453682,
+26733693
+
+1. Nat Rev Microbiol. 2017 Aug;15(8):502-510. doi: 10.1038/nrmicro.2017.45. Epub
+2017 May 30.
+
+Pathways to zoonotic spillover.
+
+Plowright RK(1), Parrish CR(2), McCallum H(3), Hudson PJ(4), Ko AI(5), Graham
+AL(6), Lloyd-Smith JO(7).
+
+Author information:
+(1)Department of Microbiology and Immunology, Montana State University, Bozeman,                                                                                                                                                                                               
+Montana 59717, USA.
+(2)Baker Institute for Animal Health, College of Veterinary Medicine, Cornell
+University, Ithaca, New York 14853, USA.
+(3)Griffith School of Environment, Griffith University, Brisbane, Queensland
+4111, Australia.
+(4)Center for Infectious Disease Dynamics, Pennsylvania State University, State
+College, Pennsylvania 16802, USA.
+(5)Department of Epidemiology of Microbial Diseases, Yale School of Public
+Health, New Haven, Connecticut 06520-8034, USA.
+(6)Department of Ecology &Evolutionary Biology, Princeton University, Princeton,                                                                                                                                                                                               
+New Jersey 08544, USA.
+(7)Department of Ecology &Evolutionary Biology, University of California, Los
+Angeles, Los Angeles, California 90095-7239, USA; and at Fogarty International
+Center, National Institutes of Health, Bethesda, Maryland 20892-2220, USA.
+
+Zoonotic spillover, which is the transmission of a pathogen from a vertebrate
+animal to a human, presents a global public health burden but is a poorly
+understood phenomenon. Zoonotic spillover requires several factors to align,
+including the ecological, epidemiological and behavioural determinants of
+pathogen exposure, and the within-human factors that affect susceptibility to
+infection. In this Opinion article, we propose a synthetic framework for
+animal-to-human transmission that integrates the relevant mechanisms. This
+framework reveals that all zoonotic pathogens must overcome a hierarchical serie                                                                                                                                                                                               s
+of barriers to cause spillover infections in humans. Understanding how these
+barriers are functionally and quantitatively linked, and how they interact in
+space and time, will substantially improve our ability to predict or prevent
+spillover events. This work provides a foundation for transdisciplinary
+investigation of spillover and synthetic theory on zoonotic transmission.
+
+DOI: 10.1038/nrmicro.2017.45
+PMCID: PMC5791534
+PMID: 28555073  [Indexed for MEDLINE]
+
+
+kn338@KN338-WIN7 ~
+$ 28291747,
+-bash: 28291747,: command not found
+
+kn338@KN338-WIN7 ~
+$ 28141801,
+-bash: 28141801,: command not found
+
+kn338@KN338-WIN7 ~
+$ 28300969,
+-bash: 28300969,: command not found
+
+kn338@KN338-WIN7 ~
+$ 28138046,
+-bash: 28138046,: command not found
+
+kn338@KN338-WIN7 ~
+$ 28221118,
+-bash: 28221118,: command not found
+
+kn338@KN338-WIN7 ~
+$ 27927858,
+-bash: 27927858,: command not found
+
+kn338@KN338-WIN7 ~
+$ 28352293,
+-bash: 28352293,: command not found
+
+kn338@KN338-WIN7 ~
+$ 27914834,
+-bash: 27914834,: command not found
+
+kn338@KN338-WIN7 ~
+$ 27780498,
+-bash: 27780498,: command not found
+
+kn338@KN338-WIN7 ~
+$ 27812211,
+-bash: 27812211,: command not found
+
+kn338@KN338-WIN7 ~
+$ 27798305,
+-bash: 27798305,: command not found
+
+kn338@KN338-WIN7 ~
+$ 27551005,
+-bash: 27551005,: command not found
+
+kn338@KN338-WIN7 ~
+$ 27454521,
+-bash: 27454521,: command not found
+
+kn338@KN338-WIN7 ~
+$ 27645785,
+-bash: 27645785,: command not found
+
+kn338@KN338-WIN7 ~
+$ 27487084,
+-bash: 27487084,: command not found
+
+kn338@KN338-WIN7 ~
+$ 27716170,
+-bash: 27716170,: command not found
+
+kn338@KN338-WIN7 ~
+$ 27205899,
+-bash: 27205899,: command not found
+
+kn338@KN338-WIN7 ~
+$ 27141082,
+-bash: 27141082,: command not found
+
+kn338@KN338-WIN7 ~
+$ 27113476,
+-bash: 27113476,: command not found
+
+kn338@KN338-WIN7 ~
+$ 27088272,
+-bash: 27088272,: command not found
+
+kn338@KN338-WIN7 ~
+$ 27453682,
+-bash: 27453682,: command not found
+
+kn338@KN338-WIN7 ~
+$ 26733693
+-bash: 26733693: command not found
+
+kn338@KN338-WIN7 ~
+$ efetch -dp pubmed -id 28555073,\
+> 28291747,\
+> 28141801,\
+> 28300969,\
+> 28138046,\
+> 28221118,\
+> 27927858,\
+> 28352293,\
+> 27914834,\
+> 27780498,\
+> 27812211,\
+> 27798305,\
+> 27551005,\
+> 27454521,\
+> 27645785,\
+> 27487084,\
+> 27716170,\
+> 27205899,\
+> 27141082,\
+> 27113476,\
+> 27088272,\
+> 27453682,\
+> 26733693 -format xml |\
+> xtract -pattern PubmedArticle -element ArticleTitle
+Unknown option: dp
+
+Format Selection
+
+  -format        Format of record or report
+  -mode          text, xml, asn.1, json
+  -style         withparts, conwithfeat
+
+Direct Record Selection
+
+  -db            Database name
+  -id            Unique identifier or accession number
+
+Sequence Range
+
+  -seq_start     First sequence position to retrieve
+  -seq_stop      Last sequence position to retrieve
+  -strand        Strand of DNA to retrieve
+
+Gene Range
+
+  -chr_start     Sequence range from 0-based coordinates
+  -chr_stop        in gene docsum GenomicInfoType object
+
+Sequence Flags
+
+  -complexity    0 = default, 1 = bioseq, 3 = nuc-prot set
+  -extend        Extend sequence retrieval in both directions
+  -extrafeat     Bit flag specifying extra features
+
+Miscellaneous
+
+  -raw           Skip database-specific XML modifications
+
+Format Examples
+
+  -db            -format            -mode    Report Type
+  ___            _______            _____    ___________
+
+  (all)
+                 docsum                      DocumentSummarySet XML
+                 docsum             json     DocumentSummarySet JSON
+                 full                        Same as native except for mesh
+                 uid                         Unique Identifier List
+                 url                         Entrez URL
+                 xml                         Same as -format full -mode xml
+
+  bioproject
+                 native                      BioProject Report
+                 native             xml      RecordSet XML
+
+  biosample
+                 native                      BioSample Report
+                 native             xml      BioSampleSet XML
+
+  biosystems
+                 native             xml      Sys-set XML
+
+  gds
+                 native             xml      RecordSet XML
+                 summary                     Summary
+
+  gene
+                 gene_table                  Gene Table
+                 native                      Gene Report
+                 native             asn.1    Entrezgene ASN.1
+                 native             xml      Entrezgene-Set XML
+                 tabular                     Tabular Report
+
+  homologene
+                 alignmentscores             Alignment Scores
+                 fasta                       FASTA
+                 homologene                  Homologene Report
+                 native                      Homologene List
+                 native             asn.1    HG-Entry ASN.1
+                 native             xml      Entrez-Homologene-Set XML
+
+  mesh
+                 full                        Full Record
+                 native                      MeSH Report
+                 native             xml      RecordSet XML
+
+  nlmcatalog
+                 native                      Full Record
+                 native             xml      NLMCatalogRecordSet XML
+
+  pmc
+                 medline                     MEDLINE
+                 native             xml      pmc-articleset XML
+
+  pubmed
+                 abstract                    Abstract
+                 medline                     MEDLINE
+                 native             asn.1    Pubmed-entry ASN.1
+                 native             xml      PubmedArticleSet XML
+
+  (sequences)
+                 acc                         Accession Number
+                 est                         EST Report
+                 fasta                       FASTA
+                 fasta              xml      TinySeq XML
+                 fasta_cds_aa                FASTA of CDS Products
+                 fasta_cds_na                FASTA of Coding Regions
+                 ft                          Feature Table
+                 gb                          GenBank Flatfile
+                 gb                 xml      GBSet XML
+                 gbc                xml      INSDSet XML
+                 gene_fasta                  FASTA of Gene
+                 gp                          GenPept Flatfile
+                 gp                 xml      GBSet XML
+                 gpc                xml      INSDSet XML
+                 gss                         GSS Report
+                 ipg                         Identical Protein Report
+                 ipg                xml      IPGReportSet XML
+                 native             text     Seq-entry ASN.1
+                 native             xml      Bioseq-set XML
+                 seqid                       Seq-id ASN.1
+
+  snp
+                 chr                         Chromosome Report
+                 docset                      Summary
+                 fasta                       FASTA
+                 flt                         Flat File
+                 native             asn.1    Rs ASN.1
+                 native             xml      ExchangeSet XML
+                 rsr                         RS Cluster Report
+                 ssexemplar                  SS Exemplar List
+
+  sra
+                 native             xml      EXPERIMENT_PACKAGE_SET XML
+                 runinfo            xml      SraRunInfo XML
+
+  structure
+                 mmdb                        Ncbi-mime-asn1 strucseq ASN.1
+                 native                      MMDB Report
+                 native             xml      RecordSet XML
+
+  taxonomy
+                 native                      Taxonomy List
+                 native             xml      TaxaSet XML
+
+
+kn338@KN338-WIN7 ~
+$ efetch -db pubmed -id 28555073,28291747,28141801,28300969,28138046,28221118,27927858,28352293,27914834,27780498,27812211,27798305,27551005,27454521,27645785,27487                                                                                                           084,27716170,27205899,27141082,27113476,27088272,27453682,26733693 -format xml |xtract -pattern PubmedArticle -element ArticleTitle
+
+ERROR: Unparsable XML element
+Pathways to zoonotic spillover.
+Crystallization of FcpA from Leptospira, a novel flagellar protein that is essential for pathogenesis.
+Distinct antibody responses of patients with mild and severe leptospirosis determined by whole proteome microarray analysis.
+Rat infestation associated with environmental deficiencies in an urban slum community with high risk of leptospirosis transmission.
+Epidemiological Investigation of a Diarrhea Outbreak in the South Pacific Island Nation of Tuvalu During a Severe La Niña-Associated Drought Emergency in 2011.
+Increase in Tuberculosis Cases among Prisoners, Brazil, 2009-20141.
+Transient Hearing Loss in Adults Associated With Zika Virus Infection.
+Using fine-scale spatial genetics of Norway rats to improve control efforts and reduce leptospirosis risk in urban slum environments.
+Glaucoma and Congenital Zika Syndrome.
+Factors affecting carriage and intensity of infection of Calodium hepaticum within Norway rats (Rattus norvegicus) from an urban slum environment in Salvador, Brazi                                                                                                           l.
+Cathelicidin Insufficiency in Patients with Fatal Leptospirosis.
+Global population divergence and admixture of the brown rat (Rattus norvegicus).
+Zika Virus: From Obscurity to Potentially Devastating International Threat.
+Low Risk of International Zika Virus Spread due to the 2016 Olympics in Brazil.
+Guillain-Barré Syndrome After Zika Virus Infection in Brazil.
+An Optimized Method for Quantification of Pathogenic Leptospira in Environmental Water Samples.
+Impact of mass-screening on tuberculosis incidence in a prospective cohort of Brazilian prisoners.
+A Cost-Effectiveness Tool for Informing Policies on Zika Virus Control.
+Real-Time PCR Reveals Rapid Dissemination of Leptospira interrogans after Intraperitoneal and Conjunctival Inoculation of Hamsters.
+A novel flagellar sheath protein, FcpA, determines filament coiling, translational motility and virulence for the Leptospira spirochete.
+Increased Rotavirus Prevalence in Diarrheal Outbreak Precipitated by Localized Flooding, Solomon Islands, 2014.
+A Comparative Assessment of Track Plates to Quantify Fine Scale Variations in the Relative Abundance of Norway Rats in Urban Slums.
+Multiple Paternity in the Norway Rat, Rattus norvegicus, from Urban Slums in Salvador, Brazil.
+
+kn338@KN338-WIN7 ~
+$ efetch -db pubmed -id 28555073,28291747,28141801,28300969,28138046,28221118,27927858,28352293,27914834,27780498,27812211,27798305,27551005,27454521,27645785,27487084,2771617                                                                                                0,27205899,27141082,27113476,27088272,27453682,26733693 -format xml |xtract -pattern PubmedArticle -element Affiliation
+
+ERROR: Unparsable XML element
+Department of Microbiology and Immunology, Montana State University, Bozeman, Montana 59717, USA.       Baker Institute for Animal Health, College of Veterinary Medicine, Corn                                                                                                ell University, Ithaca, New York 14853, USA.    Griffith School of Environment, Griffith University, Brisbane, Queensland 4111, Australia.      Center for Infectious Disease D                                                                                                ynamics, Pennsylvania State University, State College, Pennsylvania 16802, USA. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Conn                                                                                                ecticut 06520-8034, USA.        Department of Ecology &Evolutionary Biology, Princeton University, Princeton, New Jersey 08544, USA.    Department of Ecology &Evolutionary Bio                                                                                                logy, University of California, Los Angeles, Los Angeles, California 90095-7239, USA; and at Fogarty International Center, National Institutes of Health, Bethesda, Maryland 20                                                                                                892-2220, USA.
+Laboratory of Molecular and Structural Microbiology, Institut Pasteur de Montevideo, 11400 Montevideo, Uruguay. Laboratory of Molecular and Structural Microbiology, Institut P                                                                                                asteur de Montevideo, 11400 Montevideo, Uruguay.        Laboratory of Molecular and Structural Microbiology, Institut Pasteur de Montevideo, 11400 Montevideo, Uruguay. Departm                                                                                                ent of Epidemiology of Microbial Disease, Yale School of Public Health, New Haven, CT 06520, USA.       Department of Epidemiology of Microbial Disease, Yale School of Public                                                                                                 Health, New Haven, CT 06520, USA.       Unit of Biology of Spirochetes, Department of Microbiology, Institut Pasteur, 25-28 Rue du Dr Roux, 75015 Paris, France.        Laborat                                                                                                ory of Molecular and Structural Microbiology, Institut Pasteur de Montevideo, 11400 Montevideo, Uruguay.        Laboratory of Molecular and Structural Microbiology, Institut P                                                                                                asteur de Montevideo, 11400 Montevideo, Uruguay.
+Fiocruz, Bio-Manguinhos, Brazilian Ministry of Health, Rio de Janeiro, RJ, Brazil.      Fiocruz, Gonçalo Moniz Research Institute, Brazilian Ministry of Health, Salvador, BA,                                                                                                 Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, United States of America.        Antigen Discovery Inc, Irvine, CA, Unit                                                                                                ed States of America.   Fiocruz, Gonçalo Moniz Research Institute, Brazilian Ministry of Health, Salvador, BA, Brazil.  Department of Epidemiology of Microbial Diseases, Yale                                                                                                 School of Public Health, New Haven, CT, United States of America.       Department of Medicine, Division of Infectious Disease, University of California Irvine, Irvine, Califo                                                                                                rnia, United States of America. Department of Medicine, Division of Infectious Disease, University of California Irvine, Irvine, California, United States of America.  Departm                                                                                                ent of Medicine, Division of Infectious Disease, University of California Irvine, Irvine, California, United States of America. Fiocruz, Gonçalo Moniz Research Institute, Braz                                                                                                ilian Ministry of Health, Salvador, BA, Brazil. Fiocruz, Gonçalo Moniz Research Institute, Brazilian Ministry of Health, Salvador, BA, Brazil.  Fiocruz, Gonçalo Moniz Research                                                                                                 Institute, Brazilian Ministry of Health, Salvador, BA, Brazil. Institute of Collective Health, Federal University of Bahia, Salvador, BA, Brazil.      Fiocruz, Gonçalo Moniz                                                                                                 Research Institute, Brazilian Ministry of Health, Salvador, BA, Brazil. Institute of Collective Health, Federal University of Bahia, Salvador, BA, Brazil.      Department of E                                                                                                pidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, United States of America.       Fiocruz, Gonçalo Moniz Research Institute, Brazilian Ministry o                                                                                                f Health, Salvador, BA, Brazil. Fiocruz, Gonçalo Moniz Research Institute, Brazilian Ministry of Health, Salvador, BA, Brazil.  Department of Epidemiology of Microbial Disease                                                                                                s, Yale School of Public Health, New Haven, CT, United States of America.       Fiocruz, Bio-Manguinhos, Brazilian Ministry of Health, Rio de Janeiro, RJ, Brazil.      Departm                                                                                                ent of Medicine, Division of Infectious Disease, University of California Irvine, Irvine, California, United States of America.
+Escola de Medicina Veterinária, Universidade Federal da Bahia, Salvador, Brasil.        Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brasil.     Centro                                                                                                 de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brasil.    Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brasil.     School of Public Health                                                                                                , Yale University, New Haven, U.S.A.    Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brasil.     Instituto de Saúde Coletiva, Universidade Federal da Ba                                                                                                hia, Salvador, Brasil.
+Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut. Fundação Oswaldo Cruz, Salvador, Brazil.        Department of Epidemiol                                                                                                ogy of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.        Tuvalu Ministry of Health, Funafuti, Tuvalu.    Tuvalu Ministry of Health, Funafuti, Tu                                                                                                valu.   World Health Organization, Suva, Fiji.
+Hospital Santa Izabel, Salvador, BA, Brazil.    Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Fundação Oswaldo Cruz/MS, Salvador, Brazil.   Hospital Santa Izabel,                                                                                                 Salvador, BA, Brazil.   Hospital Santa Izabel, Salvador, BA, Brazil.    Hospital Santa Izabel, Salvador, BA, Brazil.    Hospital Santa Izabel, Salvador, BA, Brazil.    Centro                                                                                                 de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Fundação Oswaldo Cruz/MS, Salvador, Brazil.  World Health Organization Collaborating Center for Reference and Research on Ar                                                                                                bovirus, Instituto Evandro Chagas, Fundação Nacional de Saúde, Ministério da Saúde, Belém, Brazil.      Department of Pathology, Center for Biodefense and Emerging Infectious                                                                                                 Diseases, University of Texas Medical Branch, Galveston.        Department of Pathology, Center for Biodefense and Emerging Infectious Diseases, University of Texas Medical Br                                                                                                anch, Galveston.        Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Fundação Oswaldo Cruz/MS, Salvador, Brazil.   Department of Epidemiology of Microbial Disease                                                                                                s, Yale School of Public Health, New Haven, Connecticut.        Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Fundação Oswaldo Cruz/MS, Salvador, Brazil.   Multina                                                                                                tional Organization Network Sponsoring Translational and Epidemiological Research Initiative, José Silveira Foundation, Salvador, Brazil.       Centro de Pesquisas Gonçalo Mon                                                                                                iz, Fundação Oswaldo Cruz, Fundação Oswaldo Cruz/MS, Salvador, Brazil.  Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Fundação Oswaldo Cruz/MS, Salvador, Brazil. K                                                                                                U Leuven, Department of Microbiology and Immunology, Rega Institute for Medical Research, Laboratory of Clinical and Epidemiological Virology, Leuven, Belgium. Hospital Santa                                                                                                 Izabel, Salvador, BA, Brazil.   Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Fundação Oswaldo Cruz/MS, Salvador, Brazil.   Faculdade de Medicina da Bahia, Univers                                                                                                idade Federal da Bahia, Salvador, Brazil.
+Department of Biology Providence College Providence RI USA.     Department of Biology Providence College Providence RI USA.     Department of Ecology & Evolutionary Biology Ya                                                                                                le University New Haven CT USA. Department of Ecology & Evolutionary Biology Yale University New Haven CT USA.  Department of Ecology & Evolutionary Biology Yale University Ne                                                                                                w Haven CT USA. Centro de Pesquisas Gonçalo Moniz Fundação Oswaldo Cruz Ministério da Saúde Salvador Brazil.    Centro de Pesquisas Gonçalo Moniz Fundação Oswaldo Cruz Ministé                                                                                                rio da Saúde Salvador Brazil.   Centro de Pesquisas Gonçalo Moniz Fundação Oswaldo Cruz Ministério da Saúde Salvador Brazil.    Centro de Pesquisas Gonçalo Moniz Fundação Oswa                                                                                                ldo Cruz Ministério da Saúde Salvador Brazil.   Centro de Pesquisas Gonçalo Moniz Fundação Oswaldo Cruz Ministério da Saúde Salvador Brazil.    Centro de Pesquisas Gonçalo Mon                                                                                                iz Fundação Oswaldo Cruz Ministério da Saúde Salvador Brazil.   Centro de Pesquisas Gonçalo Moniz Fundação Oswaldo Cruz Ministério da Saúde Salvador Brazil.    Centro de Contr                                                                                                ole de Zoonoses Secretaria Municipal de Saúde Ministério da Saúde Salvador Brazil.      Instituto de Saúde Coletiva Universidade Federal da Bahia, UFBA Salvador Brazil.      D                                                                                                epartment of Epidemiology of Microbial Disease Yale School of Public Health New Haven CT USA.   Centro de Pesquisas Gonçalo MonizFundação Oswaldo CruzMinistério da SaúdeSalvad                                                                                                orBrazil; Department of Epidemiology of Microbial DiseaseYale School of Public HealthNew HavenCTUSA.    Department of Ecology & Evolutionary Biology Yale University New Haven                                                                                                 CT USA.
+Department of Ophthalmology, Hospital Geral Roberto Santos, Salvador, Brazil; Vision Institute, Department of Ophthalmology, Paulista Medical School, Federal University of São                                                                                                 Paulo, São Paulo, Brazil.      Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Salvador, Brazil; Department of Epidemiology of Microbial Diseases, Yale School of Publ                                                                                                ic Health, New Haven, Connecticut.      Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Salvador, Brazil.       Department of Ophthalmology, Hospital Geral Roberto San                                                                                                tos, Salvador, Brazil.  Department of Arbovirology and Hemorrhagic Fevers, Evandro Chagas Institute, Ministry of Health, Ananindeua, Brazil.    Vision Institute, Department of                                                                                                 Ophthalmology, Paulista Medical School, Federal University of São Paulo, São Paulo, Brazil.    Vision Institute, Department of Ophthalmology, Paulista Medical School, Federal                                                                                                 University of São Paulo, São Paulo, Brazil. Electronic address: prof.belfort@clinicabelfort.com.br.
+Centro de Pesquisas Gonçalo Moniz,Fundação Oswaldo Cruz,Ministério da Saúde,Salvador,Brazil.    Centro de Pesquisas Gonçalo Moniz,Fundação Oswaldo Cruz,Ministério da Saúde,Sal                                                                                                vador,Brazil.   Centro de Pesquisas Gonçalo Moniz,Fundação Oswaldo Cruz,Ministério da Saúde,Salvador,Brazil.    Centro de Pesquisas Gonçalo Moniz,Fundação Oswaldo Cruz,Ministé                                                                                                rio da Saúde,Salvador,Brazil.   Centro de Pesquisas Gonçalo Moniz,Fundação Oswaldo Cruz,Ministério da Saúde,Salvador,Brazil.    Centro de Pesquisas Gonçalo Moniz,Fundação Oswa                                                                                                ldo Cruz,Ministério da Saúde,Salvador,Brazil.   Institute of Integrative Biology,University of Liverpool,Liverpool,UK.  Centro de Pesquisas Gonçalo Moniz,Fundação Oswaldo Cruz                                                                                                ,Ministério da Saúde,Salvador,Brazil.   Centro de Pesquisas Gonçalo Moniz,Fundação Oswaldo Cruz,Ministério da Saúde,Salvador,Brazil.    Centro de Pesquisas Gonçalo Moniz,Funda                                                                                                ção Oswaldo Cruz,Ministério da Saúde,Salvador,Brazil.   Centro de Pesquisas Gonçalo Moniz,Fundação Oswaldo Cruz,Ministério da Saúde,Salvador,Brazil.    Centro de Pesquisas Gon                                                                                                çalo Moniz,Fundação Oswaldo Cruz,Ministério da Saúde,Salvador,Brazil.   Centro de Controle de Zoonoses,Secretaria Municipal de Saúde,Ministério da Saúde,Salvador,Brazil.     I                                                                                                nstituto de Ciências da Saúde,Universidade Federal da Bahia,UFBA,Salvador,Brazil.       Centro de Pesquisas Gonçalo Moniz,Fundação Oswaldo Cruz,Ministério da Saúde,Salvador,Br                                                                                                azil.   Centro de Pesquisas Gonçalo Moniz,Fundação Oswaldo Cruz,Ministério da Saúde,Salvador,Brazil.    Department of Epidemiology of Microbial Disease,Yale School of Public H                                                                                                ealth,New Haven,CT,USA. Institute of Integrative Biology,University of Liverpool,Liverpool,UK.  Centro de Pesquisas Gonçalo Moniz,Fundação Oswaldo Cruz,Ministério da Saúde,Sal                                                                                                vador,Brazil.
+Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America.       Centro de Pesquisas Gonçalo Moniz, Fund                                                                                                ação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brazil.        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut,                                                                                                 United States of America.      Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brazil. Department of Medicine, Stanford Univer                                                                                                sity School of Medicine, Stanford, California, United States of America.        Section of Pulmonary, Critical Care and Sleep Medicine, Yale University School of Medicine, New                                                                                                 Haven, Connecticut, United States of America.  Section of Pulmonary, Critical Care and Sleep Medicine, Yale University School of Medicine, New Haven, Connecticut, United Stat                                                                                                es of America.  Section of Pulmonary, Critical Care and Sleep Medicine, Yale University School of Medicine, New Haven, Connecticut, United States of America.   Section of Rheu                                                                                                matology, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut, United States of America.   Department of Epidemiology of Microbial Diseases, Yale                                                                                                 School of Public Health, New Haven, Connecticut, United States of America.      Department of Neurology, Yale School of Medicine, New Haven, Connecticut, United States of Amer                                                                                                ica.    Section of Pulmonary, Critical Care and Sleep Medicine, Yale University School of Medicine, New Haven, Connecticut, United States of America.   Section of Rheumatology                                                                                                , Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut, United States of America.   Section of Infectious Diseases, Department of Internal Medicine                                                                                                , Yale School of Medicine, New Haven, Connecticut, United States of America.    Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Conn                                                                                                ecticut, United States of America.      Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brazil. Centro de Pesquisas Gonçalo Mon                                                                                                iz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brazil.        Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia,                                                                                                 Brazil.        Department of Medicine, Stanford University School of Medicine, Stanford, California, United States of America. Department of Microbiology and Immunology, Stan                                                                                                ford University School of Medicine, Stanford, California, United States of America; Veterans Affairs Palo Alto Health Care System, Palo Alto, California, United States of Amer                                                                                                ica.    Division of Experimental Medicine, Department of Medicine, University of California, San Francisco, San Francisco, California, United States of America.        Centro                                                                                                 de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brazil.        Department of Epidemiology of Microbial Diseases, Yale School of Public                                                                                                 Health, New Haven, Connecticut, United States of America.      Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brazil.
+Louis Calder Center, Biological Field Station, Fordham University, Armonk, NY 10504, USA emily.e.puckett@gmail.com.     Louis Calder Center, Biological Field Station, Fordham                                                                                                 University, Armonk, NY 10504, USA.      Louis Calder Center, Biological Field Station, Fordham University, Armonk, NY 10504, USA.       Xavier Center for Bioenvironmental Rese                                                                                                arch, Tulane University, New Orleans, LA 70112, USA.    Clinical Research Unit, Oxford University, Hanoi, Vietnam.      Department of Ecology and Evolutionary Biology, Yale Un                                                                                                iversity, PO Box 208106, New Haven, CT 06520-8106, USA. Instituto de Saúde Coletiva, Universidade Federal da Bahia, Salvador, Brazil.   Ashworth Laboratories, Institute of Evo                                                                                                lutionary Biology, University of Edinburgh, Charlotte Auerbach Road, Edinburgh EH9 3FL, UK.     Mathematical and Statistical Methods Group, Wageningen University, Droevendaals                                                                                                esteeg 1, 6708 PB Wageningen, The Netherlands.  Federal Research Centre for Cultivated Plants, Institute for Plant Protection in Horticulture and Forests, Vertebrate Research,                                                                                                 Julius Kühn Institute, Münster, Germany.       Animal Health Centre, British Columbia Ministry of Agriculture, 1767 Angus Campbell Road, Abbotsford, British Columbia, Canada                                                                                                 V3G 2M3.        Ashworth Laboratories, Institute of Evolutionary Biology, University of Edinburgh, Charlotte Auerbach Road, Edinburgh EH9 3FL, UK.      Laboratory of Epidemiol                                                                                                ogy and Public Health, Yale University, New Haven, CT, USA.     Department of Medical Biochemistry and Microbiology, Zoonosis Science Center, Uppsala University, Uppsala, Swed                                                                                                en.     Wildlife Zoonoses and Vector Borne Disease Research Group, Animal and Plant Health Agency (APHA), Woodham Lane, New Haw Surrey, UK.     CNRS-CIRAD, Centre d'Infectiolo                                                                                                gie Christophe Mérieux du Laos, Vientiane, Lao PDR.     Department of Anthropology, University of Auckland, Private Bag 92019, Auckland, New Zealand.   School of Biological Sc                                                                                                iences, University of Auckland, Private Bag 92019, Auckland, New Zealand.       School of Biological Sciences, University of Auckland, Private Bag 92019, Auckland, New Zealand                                                                                                .       Department of Statistics, University of Auckland, Private Bag 92019, Auckland, New Zealand.     Department of Medical Biochemistry and Microbiology, Zoonosis Science C                                                                                                enter, Uppsala University, Uppsala, Sweden.     Laboratorio de Ecologia de Roedores Urbanos, IEGEBA-CONICET, EGE-Facultad de Ciencias Exactas y Naturales, Universidad de Bueno                                                                                                s Aires Pabellon II, Ciudad Universitaria (C1428EHA), Buenos Aires, Argentina.  School of Veterinary Medicine and Science, University of Nottingham, Sutton Bonington Campus, L                                                                                                oughborough LE12 5RD, UK.       Louis Calder Center, Biological Field Station, Fordham University, Armonk, NY 10504, USA jmunshisouth@fordham.edu.
+Departments of Laboratory Medicine and Medicine (Infectious Diseases), Yale University School of Medicine, and Clinical Virology Laboratory, Yale New Haven Hospital, New Haven                                                                                                , CT; marie.landry@yale.edu.    Professor and Chair, Department of Epidemiology (Microbial Diseases) and Professor of Medicine (Infectious Diseases), Yale University School of                                                                                                 Medicine, New Haven, CT;       Director, Arbovirus Laboratory, Wadsworth Center, New York State Department of Health, and Professor, Biomedical Sciences, School of Public Hea                                                                                                lth, State University of New York at Albany, Albany, NY;        Associate Professor, Department of Pathology and Member, Center for Biodefense and Emerging Infectious Diseases                                                                                                , Center for Tropical Diseases, and Institute for Human Infections and Immunity, University of Texas Medical Branch, Galveston, TX.
+Hospital Geral Roberto Santos, Secretaria Estadual da Saúde da Bahia, Salvador, Brazil. Hospital Geral Roberto Santos, Secretaria Estadual da Saúde da Bahia, Salvador, Brazil.                                                                                                Department of Pathology, Center for Biodefense and Emerging Infectious Diseases, Institute for Human Infections and Immunity, University of Texas Medical Branch, Galveston, Te                                                                                                xas.    Center for Tropical Diseases, University of Texas Medical Branch, Galveston, Texas.     Hospital Geral Roberto Santos, Secretaria Estadual da Saúde da Bahia, Salvador,                                                                                                 Brazil.        Hospital São Rafael, Fundação Monte Tabor, Salvador, Brazil.    Seção de Arbovirologia e Febres Hemorrágicas, Instituto Evandro Chagas/SVS/MS, Ananindeua, Braz                                                                                                il.     Seção de Arbovirologia e Febres Hemorrágicas, Instituto Evandro Chagas/SVS/MS, Ananindeua, Brazil.      Seção de Arbovirologia e Febres Hemorrágicas, Instituto Evandro                                                                                                 Chagas/SVS/MS, Ananindeua, Brazil.     Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut. Centro de Pesquisas Gonçalo Mon                                                                                                iz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Brazil.       Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Brazil. isador                                                                                                a.siqueira@bahia.fiocruz.br.
+Central Laboratory of the State of Paraná, Curitiba, Paraná, Brazil.    National Center for Emerging and Zoonotic Infectious Diseases, Centers for Disease Control and Preventi                                                                                                on, Atlanta, Georgia, United States of America. Department of Epidemiology of Microbial Diseases, School of Public Health, Yale University, New Haven, Connecticut, United Stat                                                                                                es of America.  Department of Veterinary Medicine, Federal University of the State of Paraná, Curitiba, Paraná, Brazil. Department of Epidemiology of Microbial Diseases, Schoo                                                                                                l of Public Health, Yale University, New Haven, Connecticut, United States of America.  Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, S                                                                                                alvador, Bahia, Brazil. National Center for Emerging and Zoonotic Infectious Diseases, Centers for Disease Control and Prevention, Atlanta, Georgia, United States of America.
+Faculty of Health Sciences, Federal University of Grande Dourados, Dourados, Brazil.    School of Medicine, Federal University of Mato Grosso do Sul, Campo Grande, Brazil.   F                                                                                                aculty of Health Sciences, Federal University of Grande Dourados, Dourados, Brazil.     Faculty of Health Sciences, Federal University of Grande Dourados, Dourados, Brazil.  F                                                                                                aculty of Health Sciences, Federal University of Grande Dourados, Dourados, Brazil.     Faculty of Health Sciences, Federal University of Grande Dourados, Dourados, Brazil.  F                                                                                                aculty of Health Sciences, Federal University of Grande Dourados, Dourados, Brazil.     Faculty of Health Sciences, Federal University of Grande Dourados, Dourados, Brazil.  F                                                                                                aculty of Health Sciences, Federal University of Grande Dourados, Dourados, Brazil.     Faculty of Ambiental and Biological Sciences, Federal University of Grande Dourados, Do                                                                                                urados, Brazil. Department of Biochemical Pharmacy, Federal University of Mato Grosso do Sul, Campo Grande, Brazil.     Oswaldo Cruz Foundation, Campo Grande, Brazil.  School                                                                                                 of Medicine, Federal University of Mato Grosso do Sul, Campo Grande, Brazil.    Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT,                                                                                                 USA.    Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, USA.     Oswaldo Cruz Foundation, Salvador, Brazil.      Division of Inf                                                                                                ectious Diseases and Geographic Medicine, Stanford School of Medicine, Palo Alto, CA, USA.      Faculty of Health Sciences, Federal University of Grande Dourados, Dourados, Br                                                                                                azil. juliocroda@gmail.com.     Oswaldo Cruz Foundation, Campo Grande, Brazil. juliocroda@gmail.com.
+Center for Infectious Disease Modeling and Analysis, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.   Department of Epidemiol                                                                                                ogy of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.     Center for Infectious Disease Modeling and Anal                                                                                                ysis, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.  Department of Epidemiology of Microbial Diseases, Yale School of Public                                                                                                 Health, Yale University, New Haven, Connecticut, United States of America.     Center for Infectious Disease Modeling and Analysis, Yale School of Public Health, Yale Univers                                                                                                ity, New Haven, Connecticut, United States of America.  Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut                                                                                                , United States of America.     Center for Infectious Disease Modeling and Analysis, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of Am                                                                                                erica.  Department of Biomedical Sciences, College of Veterinary Medicine, Oregon State University, Corvallis, Oregon, United States of America.        Center for Infectious D                                                                                                isease Modeling and Analysis, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.  Department of Epidemiology of Microbial Disease                                                                                                s, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.     Department of Epidemiology of Microbial Diseases, Yale School of Public                                                                                                 Health, Yale University, New Haven, Connecticut, United States of America.     Pediatric Infectious Diseases Department, Hospital Nacional de Niños "Dr. Carlos Sáenz Herrera"                                                                                                , San José, Costa Rica. Programa de Control de Vectores, Ministerio de Salud, San José, Costa Rica.     Department of Epidemiology of Microbial Diseases, Yale School of Public                                                                                                 Health, Yale University, New Haven, Connecticut, United States of America.     Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia,                                                                                                 Brasil.        Center for Infectious Disease Modeling and Analysis, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.   Departm                                                                                                ent of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.     Department of Ecology and Evolu                                                                                                tionary Biology, Yale University, New Haven, Connecticut, United States of America.
+Epidemiology of Microbial Disease Division, Yale School of Public Health, New Haven, Connecticut, USA elsio.wunder@yale.edu.    Gonçalo Moniz Research Center, Oswaldo Cruz Fou                                                                                                ndation, Brazilian Ministry of Health, Salvador, Brazil.        Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Brazil. Gonçalo                                                                                                 Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Brazil.        Institut Pasteur, Unité de Biologie des Spirochètes, Paris, France.   D                                                                                                epartment of Medicine, David Geffen School of Medicine at University of California, Los Angeles, Los Angeles, California, USA.  Division of Infectious Diseases, Department of                                                                                                 Medicine, University of California San Diego School of Medicine, La Jolla, California, USA.     Division of Infectious Diseases, Department of Medicine, University of Californ                                                                                                ia San Diego School of Medicine, La Jolla, California, USA.     Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Brazil. Departm                                                                                                ent of Medicine, David Geffen School of Medicine at University of California, Los Angeles, Los Angeles, California, USA.        Institut Pasteur, Unité de Biologie des Spiroch                                                                                                ètes, Paris, France.    Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Brazil. Epidemiology of Microbial Disease Division, Yal                                                                                                e School of Public Health, New Haven, Connecticut, USA. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Brazil.
+Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Haven, CT, 06520, USA.       Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazili                                                                                                an Ministry of Health, Salvador, Bahia, 40296-710, Brazil.      Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Bahia, 40296-71                                                                                                0, Brazil.      Institut Pasteur, Unit of Biology of Spirochetes, 75724 Paris cedex 15, France. Department of Pathology and Laboratory Medicine, University of Texas Medical Sc                                                                                                hool at Houston, Houston, TX, 77030, USA.       Department of Pathology and Laboratory Medicine, University of Texas Medical School at Houston, Houston, TX, 77030, USA.      L                                                                                                aboratory of Molecular & Structural Microbiology, Institut Pasteur de Montevideo, Montevideo, 11400, Uruguay.   Department of Pathology and Laboratory Medicine, University of                                                                                                 Texas Medical School at Houston, Houston, TX, 77030, USA.       Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Bahia, 40296-71                                                                                                0, Brazil.      Department of Microbiology and Immunology, West Virginia University, Morgantown, WV, 26506, USA.        Laboratory of Molecular & Structural Microbiology, Inst                                                                                                itut Pasteur de Montevideo, Montevideo, 11400, Uruguay. Department of Structural Biology and Chemistry, Institute Pasteur, 75724 Paris cedex15, France. Institut Pasteur, Unit                                                                                                 of Biology of Spirochetes, 75724 Paris cedex 15, France.        Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Haven, CT, 06520, USA.     G                                                                                                onçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Bahia, 40296-710, Brazil.
+Department of Epidemiology of Microbial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of America, CT 06511.   Institute of Integrative Biolog                                                                                                y, University of Liverpool, Liverpool, United Kingdom, L69 7ZB. Institute of Integrative Biology, University of Liverpool, Liverpool, United Kingdom, L69 7ZB.  Department of E                                                                                                pidemiology of Microbial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of America, CT 06511.  Institute of Integrative Biology, University of                                                                                                 Liverpool, Liverpool, United Kingdom, L69 7ZB. Instituto de Biologia, Universidade Federal da Bahia, UFBA, Salvador, Brasil, 40.110-040 (SS).  Centro de Pesquisas Gonçalo Mon                                                                                                iz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Brasil, 40296-710.    Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador, Brasil, 40.110-040.                                                                                                Department of Epidemiology of Microbial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of America, CT 06511.   Department of Epidemiology of M                                                                                                icrobial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of America, CT 06511.  Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Minis                                                                                                tério da Saúde, Salvador, Brasil, 40296-710.    Department of Epidemiology of Microbial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of Amer                                                                                                ica, CT 06511.  Institute of Integrative Biology, University of Liverpool, Liverpool, United Kingdom, L69 7ZB.  Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Minis                                                                                                tério da Saúde, Salvador, Brasil, 40296-710.    Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador, Brasil, 40.110-040.
+From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square                                                                                                , Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiolog                                                                                                y of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool                                                                                                , Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone). fede                                                                                                rico.costa@ufba.br.     From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence Coll                                                                                                ege, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); D                                                                                                epartment of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology,                                                                                                 University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mar                                                                                                iani, and Caccone).     From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence Coll                                                                                                ege, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); D                                                                                                epartment of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology,                                                                                                 University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mar                                                                                                iani, and Caccone).     From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence Coll                                                                                                ege, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); D                                                                                                epartment of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology,                                                                                                 University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mar                                                                                                iani, and Caccone).     From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence Coll                                                                                                ege, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); D                                                                                                epartment of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology,                                                                                                 University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mar                                                                                                iani, and Caccone).     From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence Coll                                                                                                ege, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); D                                                                                                epartment of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology,                                                                                                 University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mar                                                                                                iani, and Caccone).     From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence Coll                                                                                                ege, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); D                                                                                                epartment of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology,                                                                                                 University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mar                                                                                                iani, and Caccone).     From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence Coll                                                                                                ege, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); D                                                                                                epartment of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology,                                                                                                 University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mar                                                                                                iani, and Caccone).     From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence Coll                                                                                                ege, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); D                                                                                                epartment of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology,                                                                                                 University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mar                                                                                                iani, and Caccone).
+
+kn338@KN338-WIN7 ~
+$ efetch -db pubmed -id 28555073,28291747,28141801,28300969,28138046,28221118,27927858,28352293,27914834,27780498,27812211,27798305,27551005,27454521,27645785,27487084,27716170,27205899,27141082,27113476,27088272,27453682,26733693 -format xml |xtract -pattern Author -if Affiliation -contains Yale -sep " " -element LastName Affiliation
+Ko      Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut 06520-8034, USA.
+Wunder  Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Haven, CT 06520, USA.
+Ko      Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Haven, CT 06520, USA.
+Lindow  Fiocruz, Gonçalo Moniz Research Institute, Brazilian Ministry of Health, Salvador, BA, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, United States of America.
+Wunder  Fiocruz, Gonçalo Moniz Research Institute, Brazilian Ministry of Health, Salvador, BA, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, United States of America.
+Hagan   Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, United States of America.
+Ko      Fiocruz, Gonçalo Moniz Research Institute, Brazilian Ministry of Health, Salvador, BA, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, United States of America.
+Ko      Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brasil. School of Public Health, Yale University, New Haven, U.S.A.
+Emont   Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+Ko      Fundação Oswaldo Cruz, Salvador, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+Ko      Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Fundação Oswaldo Cruz/MS, Salvador, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+Hernandez       Department of Ecology & Evolutionary Biology Yale University New Haven CT USA.
+Shirvell        Department of Ecology & Evolutionary Biology Yale University New Haven CT USA.
+Mariani Department of Ecology & Evolutionary Biology Yale University New Haven CT USA.
+Childs  Department of Epidemiology of Microbial Disease Yale School of Public Health New Haven CT USA.
+Ko      Centro de Pesquisas Gonçalo MonizFundação Oswaldo CruzMinistério da SaúdeSalvadorBrazil; Department of Epidemiology of Microbial DiseaseYale School of Public HealthNew HavenCTUSA.
+Caccone Department of Ecology & Evolutionary Biology Yale University New Haven CT USA.
+Ko      Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Salvador, Brazil; Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+Childs  Department of Epidemiology of Microbial Disease,Yale School of Public Health,New Haven,CT,USA.
+Lindow  Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brazil.
+Wunder  Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brazil.
+Min     Section of Pulmonary, Critical Care and Sleep Medicine, Yale University School of Medicine, New Haven, Connecticut, United States of America.
+Mannam  Section of Pulmonary, Critical Care and Sleep Medicine, Yale University School of Medicine, New Haven, Connecticut, United States of America.
+Srivastava      Section of Pulmonary, Critical Care and Sleep Medicine, Yale University School of Medicine, New Haven, Connecticut, United States of America.
+Yao     Section of Rheumatology, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut, United States of America.
+Hacker  Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America.
+Raddassi        Department of Neurology, Yale School of Medicine, New Haven, Connecticut, United States of America.
+Lee     Section of Pulmonary, Critical Care and Sleep Medicine, Yale University School of Medicine, New Haven, Connecticut, United States of America.
+Montgomery      Section of Rheumatology, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut, United States of America.
+Shaw    Section of Infectious Diseases, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut, United States of America.
+Hagan   Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brazil.
+Ko      Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brazil.
+Caccone Department of Ecology and Evolutionary Biology, Yale University, PO Box 208106, New Haven, CT 06520-8106, USA.
+Ko      Laboratory of Epidemiology and Public Health, Yale University, New Haven, CT, USA.
+Landry  Departments of Laboratory Medicine and Medicine (Infectious Diseases), Yale University School of Medicine, and Clinical Virology Laboratory, Yale New Haven Hospital, New Haven, CT; marie.landry@yale.edu.
+Ko      Professor and Chair, Department of Epidemiology (Microbial Diseases) and Professor of Medicine (Infectious Diseases), Yale University School of Medicine, New Haven, CT;
+Ko      Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+Casanovas-Massana       Department of Epidemiology of Microbial Diseases, School of Public Health, Yale University, New Haven, Connecticut, United States of America.
+Ko      Department of Epidemiology of Microbial Diseases, School of Public Health, Yale University, New Haven, Connecticut, United States of America. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Bahia, Brazil.
+Urrego  Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, USA.
+Ko      Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, USA. Oswaldo Cruz Foundation, Salvador, Brazil.
+Alfaro-Murillo  Center for Infectious Disease Modeling and Analysis, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.
+Parpia  Center for Infectious Disease Modeling and Analysis, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.
+Fitzpatrick     Center for Infectious Disease Modeling and Analysis, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.
+Tamagnan        Center for Infectious Disease Modeling and Analysis, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.
+Ndeffo-Mbah     Center for Infectious Disease Modeling and Analysis, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.
+Fish    Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.
+Ko      Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brasil.
+Galvani Center for Infectious Disease Modeling and Analysis, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America. Department of Ecology and Evolutionary Biology, Yale University, New Haven, Connecticut, United States of America.
+Wunder  Epidemiology of Microbial Disease Division, Yale School of Public Health, New Haven, Connecticut, USA elsio.wunder@yale.edu. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Brazil.
+Ko      Epidemiology of Microbial Disease Division, Yale School of Public Health, New Haven, Connecticut, USA. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Brazil.
+Wunder  Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Haven, CT, 06520, USA. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Bahia, 40296-710, Brazil.
+Ko      Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Haven, CT, 06520, USA. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Bahia, 40296-710, Brazil.
+Hacker  Department of Epidemiology of Microbial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of America, CT 06511.
+Diggle  Department of Epidemiology of Microbial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of America, CT 06511. Institute of Integrative Biology, University of Liverpool, Liverpool, United Kingdom, L69 7ZB.
+Childs  Department of Epidemiology of Microbial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of America, CT 06511.
+Ko      Department of Epidemiology of Microbial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of America, CT 06511. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Brasil, 40296-710.
+Costa   Department of Epidemiology of Microbial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of America, CT 06511. Institute of Integrative Biology, University of Liverpool, Liverpool, United Kingdom, L69 7ZB. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Brasil, 40296-710. Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador, Brasil, 40.110-040.
+Costa   From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone). federico.costa@ufba.br.
+Richardson      From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+Dion    From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+Mariani From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+Pertile From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+Burak   From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+Childs  From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+Ko      From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+Caccone From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+
+kn338@KN338-WIN7 ~
+$ efetch -db pubmed -id 28555073,28291747,28141801,28300969,28138046,28221118,27927858,28352293,27914834,27780498,27812211,27798305,27551005,27454521,27645785,27487084,27716170,27205899,27141082,27113476,27088272,27453682,26733693 -format xml |xtract -pattern Author -if Affiliation -contains Yale -sep " " -element PMID LastName Affiliation
+Ko      Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut 06520-8034, USA.
+Wunder  Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Haven, CT 06520, USA.
+Ko      Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Haven, CT 06520, USA.
+Lindow  Fiocruz, Gonçalo Moniz Research Institute, Brazilian Ministry of Health, Salvador, BA, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, United States of America.
+Wunder  Fiocruz, Gonçalo Moniz Research Institute, Brazilian Ministry of Health, Salvador, BA, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, United States of America.
+Hagan   Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, United States of America.
+Ko      Fiocruz, Gonçalo Moniz Research Institute, Brazilian Ministry of Health, Salvador, BA, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, United States of America.
+Ko      Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brasil. School of Public Health, Yale University, New Haven, U.S.A.
+Emont   Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+Ko      Fundação Oswaldo Cruz, Salvador, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+Ko      Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Fundação Oswaldo Cruz/MS, Salvador, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+Hernandez       Department of Ecology & Evolutionary Biology Yale University New Haven CT USA.
+Shirvell        Department of Ecology & Evolutionary Biology Yale University New Haven CT USA.
+Mariani Department of Ecology & Evolutionary Biology Yale University New Haven CT USA.
+Childs  Department of Epidemiology of Microbial Disease Yale School of Public Health New Haven CT USA.
+Ko      Centro de Pesquisas Gonçalo MonizFundação Oswaldo CruzMinistério da SaúdeSalvadorBrazil; Department of Epidemiology of Microbial DiseaseYale School of Public HealthNew HavenCTUSA.
+Caccone Department of Ecology & Evolutionary Biology Yale University New Haven CT USA.
+Ko      Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Salvador, Brazil; Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+Childs  Department of Epidemiology of Microbial Disease,Yale School of Public Health,New Haven,CT,USA.
+Lindow  Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brazil.
+Wunder  Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brazil.
+Min     Section of Pulmonary, Critical Care and Sleep Medicine, Yale University School of Medicine, New Haven, Connecticut, United States of America.
+Mannam  Section of Pulmonary, Critical Care and Sleep Medicine, Yale University School of Medicine, New Haven, Connecticut, United States of America.
+Srivastava      Section of Pulmonary, Critical Care and Sleep Medicine, Yale University School of Medicine, New Haven, Connecticut, United States of America.
+Yao     Section of Rheumatology, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut, United States of America.
+Hacker  Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America.
+Raddassi        Department of Neurology, Yale School of Medicine, New Haven, Connecticut, United States of America.
+Lee     Section of Pulmonary, Critical Care and Sleep Medicine, Yale University School of Medicine, New Haven, Connecticut, United States of America.
+Montgomery      Section of Rheumatology, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut, United States of America.
+Shaw    Section of Infectious Diseases, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut, United States of America.
+Hagan   Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brazil.
+Ko      Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brazil.
+Caccone Department of Ecology and Evolutionary Biology, Yale University, PO Box 208106, New Haven, CT 06520-8106, USA.
+Ko      Laboratory of Epidemiology and Public Health, Yale University, New Haven, CT, USA.
+Landry  Departments of Laboratory Medicine and Medicine (Infectious Diseases), Yale University School of Medicine, and Clinical Virology Laboratory, Yale New Haven Hospital, New Haven, CT; marie.landry@yale.edu.
+Ko      Professor and Chair, Department of Epidemiology (Microbial Diseases) and Professor of Medicine (Infectious Diseases), Yale University School of Medicine, New Haven, CT;
+Ko      Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+Casanovas-Massana       Department of Epidemiology of Microbial Diseases, School of Public Health, Yale University, New Haven, Connecticut, United States of America.
+Ko      Department of Epidemiology of Microbial Diseases, School of Public Health, Yale University, New Haven, Connecticut, United States of America. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Bahia, Brazil.
+Urrego  Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, USA.
+Ko      Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, USA. Oswaldo Cruz Foundation, Salvador, Brazil.
+Alfaro-Murillo  Center for Infectious Disease Modeling and Analysis, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.
+Parpia  Center for Infectious Disease Modeling and Analysis, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.
+Fitzpatrick     Center for Infectious Disease Modeling and Analysis, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.
+Tamagnan        Center for Infectious Disease Modeling and Analysis, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.
+Ndeffo-Mbah     Center for Infectious Disease Modeling and Analysis, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.
+Fish    Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America.
+Ko      Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brasil.
+Galvani Center for Infectious Disease Modeling and Analysis, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America. Department of Ecology and Evolutionary Biology, Yale University, New Haven, Connecticut, United States of America.
+Wunder  Epidemiology of Microbial Disease Division, Yale School of Public Health, New Haven, Connecticut, USA elsio.wunder@yale.edu. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Brazil.
+Ko      Epidemiology of Microbial Disease Division, Yale School of Public Health, New Haven, Connecticut, USA. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Brazil.
+Wunder  Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Haven, CT, 06520, USA. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Bahia, 40296-710, Brazil.
+Ko      Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Haven, CT, 06520, USA. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Bahia, 40296-710, Brazil.
+Hacker  Department of Epidemiology of Microbial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of America, CT 06511.
+Diggle  Department of Epidemiology of Microbial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of America, CT 06511. Institute of Integrative Biology, University of Liverpool, Liverpool, United Kingdom, L69 7ZB.
+Childs  Department of Epidemiology of Microbial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of America, CT 06511.
+Ko      Department of Epidemiology of Microbial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of America, CT 06511. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Brasil, 40296-710.
+Costa   Department of Epidemiology of Microbial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of America, CT 06511. Institute of Integrative Biology, University of Liverpool, Liverpool, United Kingdom, L69 7ZB. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Brasil, 40296-710. Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador, Brasil, 40.110-040.
+Costa   From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone). federico.costa@ufba.br.
+Richardson      From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+Dion    From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+Mariani From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+Pertile From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+Burak   From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+Childs  From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+Ko      From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+Caccone From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+
+kn338@KN338-WIN7 ~
+$ efetch -db pubmed -id 28555073,28291747,28141801,28300969,28138046,28221118,27927858,28352293,27914834,27780498,27812211,27798305,27551005,27454521,27645785,27487084,27716170,27205899,27141082,27113476,27088272,27453682,26733693 -format xml |xtract -pattern PubmedArticle -element MedlineCitation/PMID
+
+ERROR: Unparsable XML element
+28555073
+28291747
+28141801
+28300969
+28138046
+28221118
+27927858
+28352293
+27914834
+27780498
+27812211
+27798305
+27551005
+27454521
+27645785
+27487084
+27716170
+27205899
+27141082
+27113476
+27088272
+27453682
+26733693
+
+kn338@KN338-WIN7 ~
+$ efetch -db pubmed -id 28555073,28291747,28141801,28300969,28138046,28221118,27927858,28352293,27914834,27780498,27812211,27798305,27551005,27454521,27645785,27487084,27716170,27205899,27141082,27113476,27088272,27453682,26733693 -format xml |xtract -pattern PubmedArticle -element MedlineCitation/PMID \
+> -block Author -if Author -contains Ko -element Affiliation
+
+ERROR: Unparsable XML element
+28555073
+28291747
+28141801
+28300969
+28138046
+28221118
+27927858
+28352293
+27914834
+27780498
+27812211
+27798305
+27551005
+27454521
+27645785
+27487084
+27716170
+27205899
+27141082
+27113476
+27088272
+27453682
+26733693
+
+kn338@KN338-WIN7 ~
+$ efetch -db pubmed -id 28555073,28291747,28141801,28300969,28138046,28221118,27927858,28352293,27914834,27780498,27812211,27798305,27551005,27454521,27645785,27487084,27716170,27205899,27141082,27113476,27088272,27453682,26733693 -format xml |xtract -pattern PubmedArticle -element MedlineCitation/PMID -block Author -if Author -contains Ko -sep " " -element Affiliation
+
+ERROR: Unparsable XML element
+28555073
+28291747
+28141801
+28300969
+28138046
+28221118
+27927858
+28352293
+27914834
+27780498
+27812211
+27798305
+27551005
+27454521
+27645785
+27487084
+27716170
+27205899
+27141082
+27113476
+27088272
+27453682
+26733693
+
+kn338@KN338-WIN7 ~
+$ efetch -db pubmed -id 28555073,28291747,28141801,28300969,28138046,28221118,27927858,28352293,27914834,27780498,27812211,27798305,27551005,27454521,27645785,27487084,27716170,27205899,27141082,27113476,27088272,27453682,26733693 -format xml |xtract -pattern PubmedArticle -element MedlineCitation/PMID -block Author -if Author/LastName -contains Ko -sep " " -element Affiliation
+
+ERROR: Unparsable XML element
+28555073        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut 06520-8034, USA.
+28291747        Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Haven, CT 06520, USA.
+28141801        Fiocruz, Gonçalo Moniz Research Institute, Brazilian Ministry of Health, Salvador, BA, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, United States of America.
+28300969        Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brasil. School of Public Health, Yale University, New Haven, U.S.A.
+28138046        Fundação Oswaldo Cruz, Salvador, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+28221118
+27927858        Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Fundação Oswaldo Cruz/MS, Salvador, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+28352293        Centro de Pesquisas Gonçalo MonizFundação Oswaldo CruzMinistério da SaúdeSalvadorBrazil; Department of Epidemiology of Microbial DiseaseYale School of Public HealthNew HavenCTUSA.
+27914834        Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Salvador, Brazil; Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+27780498        Centro de Pesquisas Gonçalo Moniz,Fundação Oswaldo Cruz,Ministério da Saúde,Salvador,Brazil.
+27812211        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brazil.
+27798305        Laboratory of Epidemiology and Public Health, Yale University, New Haven, CT, USA.
+27551005        Professor and Chair, Department of Epidemiology (Microbial Diseases) and Professor of Medicine (Infectious Diseases), Yale University School of Medicine, New Haven, CT;
+27454521
+27645785        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+27487084        Department of Epidemiology of Microbial Diseases, School of Public Health, Yale University, New Haven, Connecticut, United States of America. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Bahia, Brazil.
+27716170        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, USA. Oswaldo Cruz Foundation, Salvador, Brazil.
+27205899        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brasil.
+27141082        Epidemiology of Microbial Disease Division, Yale School of Public Health, New Haven, Connecticut, USA. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Brazil.
+27113476        Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Haven, CT, 06520, USA. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Bahia, 40296-710, Brazil.
+27088272
+27453682        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of America, CT 06511. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Brasil, 40296-710.
+26733693        From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+
+kn338@KN338-WIN7 ~
+$ efetch -db pubmed -id 28555073,28291747,28141801,28300969,28138046,28221118,27927858,28352293,27914834,27780498,27812211,27798305,27551005,27454521,27645785,27487084,27716170,27205899,27141082,27113476,27088272,27453682,26733693 -format xml |\xtract -pattern PubmedArticle -element MedlineCitation/PMID -block Author -if Author/LastName -contains Ko -sep " " -element Affiliation
+
+ERROR: Unparsable XML element
+28555073        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut 06520-8034, USA.
+28291747        Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Haven, CT 06520, USA.
+28141801        Fiocruz, Gonçalo Moniz Research Institute, Brazilian Ministry of Health, Salvador, BA, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, United States of America.
+28300969        Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brasil. School of Public Health, Yale University, New Haven, U.S.A.
+28138046        Fundação Oswaldo Cruz, Salvador, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+28221118
+27927858        Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Fundação Oswaldo Cruz/MS, Salvador, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+28352293        Centro de Pesquisas Gonçalo MonizFundação Oswaldo CruzMinistério da SaúdeSalvadorBrazil; Department of Epidemiology of Microbial DiseaseYale School of Public HealthNew HavenCTUSA.
+27914834        Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Salvador, Brazil; Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+27780498        Centro de Pesquisas Gonçalo Moniz,Fundação Oswaldo Cruz,Ministério da Saúde,Salvador,Brazil.
+27812211        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brazil.
+27798305        Laboratory of Epidemiology and Public Health, Yale University, New Haven, CT, USA.
+27551005        Professor and Chair, Department of Epidemiology (Microbial Diseases) and Professor of Medicine (Infectious Diseases), Yale University School of Medicine, New Haven, CT;
+27454521
+27645785        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+27487084        Department of Epidemiology of Microbial Diseases, School of Public Health, Yale University, New Haven, Connecticut, United States of America. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Bahia, Brazil.
+27716170        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, USA. Oswaldo Cruz Foundation, Salvador, Brazil.
+27205899        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brasil.
+27141082        Epidemiology of Microbial Disease Division, Yale School of Public Health, New Haven, Connecticut, USA. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Brazil.
+27113476        Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Haven, CT, 06520, USA. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Bahia, 40296-710, Brazil.
+27088272
+27453682        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of America, CT 06511. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Brasil, 40296-710.
+26733693        From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+
+kn338@KN338-WIN7 ~
+$ efetch -db pubmed -id 28555073,28291747,28141801,28300969,28138046,28221118,27927858,28352293,27914834,27780498,27812211,27798305,27551005,27454521,27645785,27487084,2771617                                                                                                0,27205899,27141082,27113476,27088272,27453682,26733693 -format xml |\xtract -pattern PubmedArticle -element MedlineCitation/PMID -block Author -if Author/LastName -contains K                                                                                                o -sep "\t" -element Affiliation >ko.txt
+
+ERROR: Unparsable XML element
+
+kn338@KN338-WIN7 ~
+$ pwd
+/cygdrive/c/Users/kn338
+
+kn338@KN338-WIN7 ~
+$ efetch -db pubmed -id 28555073,28291747,28141801,28300969,28138046,28221118,27927858,28352293,2791483                                                                                                                                                                        4,27780498,27812211,27798305,27551005,27454521,27645785,27487084,27716170,27205899,27141082,27113476,27                                                                                                                                                                        088272,27453682,26733693 -format xml |\xtract -pattern PubmedArticle -element MedlineCitation/PMID -blo                                                                                                                                                                        ck Author -if Author/LastName -contains Ko -sep " " -element Affiliation
+
+ERROR: Unparsable XML element
+28555073        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Hav                                                                                                                                                                        en, Connecticut 06520-8034, USA.
+28291747        Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Have                                                                                                                                                                        n, CT 06520, USA.
+28141801        Fiocruz, Gonçalo Moniz Research Institute, Brazilian Ministry of Health, Salvador, BA,                                                                                                                                                                         Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT,                                                                                                                                                                         United States of America.
+28300969        Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brasil. School of P                                                                                                                                                                        ublic Health, Yale University, New Haven, U.S.A.
+28138046        Fundação Oswaldo Cruz, Salvador, Brazil. Department of Epidemiology of Microbial Diseas                                                                                                                                                                        es, Yale School of Public Health, New Haven, Connecticut.
+28221118
+27927858        Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Fundação Oswaldo Cruz/MS, Sal                                                                                                                                                                        vador, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Have                                                                                                                                                                        n, Connecticut.
+28352293        Centro de Pesquisas Gonçalo MonizFundação Oswaldo CruzMinistério da SaúdeSalvadorBrazil                                                                                                                                                                        ; Department of Epidemiology of Microbial DiseaseYale School of Public HealthNew HavenCTUSA.
+27914834        Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Salvador, Brazil; Department of                                                                                                                                                                         Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+27780498        Centro de Pesquisas Gonçalo Moniz,Fundação Oswaldo Cruz,Ministério da Saúde,Salvador,Br                                                                                                                                                                        azil.
+27812211        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Hav                                                                                                                                                                        en, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Mi                                                                                                                                                                        nistério da Saúde, Salvador, Bahia, Brazil.
+27798305        Laboratory of Epidemiology and Public Health, Yale University, New Haven, CT, USA.
+27551005        Professor and Chair, Department of Epidemiology (Microbial Diseases) and Professor of M                                                                                                                                                                        edicine (Infectious Diseases), Yale University School of Medicine, New Haven, CT;
+27454521
+27645785        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Hav                                                                                                                                                                        en, Connecticut.
+27487084        Department of Epidemiology of Microbial Diseases, School of Public Health, Yale Univers                                                                                                                                                                        ity, New Haven, Connecticut, United States of America. Gonçalo Moniz Research Center, Oswaldo Cruz Foun                                                                                                                                                                        dation, Brazilian Ministry of Health, Salvador, Bahia, Brazil.
+27716170        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Hav                                                                                                                                                                        en, CT, USA. Oswaldo Cruz Foundation, Salvador, Brazil.
+27205899        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale Un                                                                                                                                                                        iversity, New Haven, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação                                                                                                                                                                         Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brasil.
+27141082        Epidemiology of Microbial Disease Division, Yale School of Public Health, New Haven, Co                                                                                                                                                                        nnecticut, USA. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, S                                                                                                                                                                        alvador, Brazil.
+27113476        Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Have                                                                                                                                                                        n, CT, 06520, USA. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health                                                                                                                                                                        , Salvador, Bahia, 40296-710, Brazil.
+27088272
+27453682        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, 60 Coll                                                                                                                                                                        ege St, New Haven, United States of America, CT 06511. Centro de Pesquisas Gonçalo Moniz, Fundação Oswa                                                                                                                                                                        ldo Cruz, Ministério da Saúde, Salvador, Brasil, 40296-710.
+26733693        From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde,                                                                                                                                                                         Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, R                                                                                                                                                                        I 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salva                                                                                                                                                                        dor 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public                                                                                                                                                                         Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biolog                                                                                                                                                                        y, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biolo                                                                                                                                                                        gy, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+
+kn338@KN338-WIN7 ~
+$ efetch -db pubmed -id 28555073,28291747,28141801,28300969,28138046,28221118,27927858,28352293,27914834,27780498,27812211,27798305,27551005,27454521,27645785,27487084,27716170,27205899,27141082,27113476,27088272,27453682,26733693 -format xml |\xtract -pattern PubmedArticle -element MedlineCitation/PMID -block Author -if Author/LastName -contains Ko -sep " " -element Affiliation
+
+ERROR: Unparsable XML element
+28555073        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut 06520-8034, USA.
+28291747        Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Haven, CT 06520, USA.
+28141801        Fiocruz, Gonçalo Moniz Research Institute, Brazilian Ministry of Health, Salvador, BA, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, United States of America.
+28300969        Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brasil. School of Public Health, Yale University, New Haven, U.S.A.
+28138046        Fundação Oswaldo Cruz, Salvador, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+28221118
+27927858        Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Fundação Oswaldo Cruz/MS, Salvador, Brazil. Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+28352293        Centro de Pesquisas Gonçalo MonizFundação Oswaldo CruzMinistério da SaúdeSalvadorBrazil; Department of Epidemiology of Microbial DiseaseYale School of Public HealthNew HavenCTUSA.
+27914834        Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Salvador, Brazil; Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+27780498        Centro de Pesquisas Gonçalo Moniz,Fundação Oswaldo Cruz,Ministério da Saúde,Salvador,Brazil.
+27812211        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brazil.
+27798305        Laboratory of Epidemiology and Public Health, Yale University, New Haven, CT, USA.
+27551005        Professor and Chair, Department of Epidemiology (Microbial Diseases) and Professor of Medicine (Infectious Diseases), Yale University School of Medicine, New Haven, CT;
+27454521
+27645785        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut.
+27487084        Department of Epidemiology of Microbial Diseases, School of Public Health, Yale University, New Haven, Connecticut, United States of America. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Bahia, Brazil.
+27716170        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, CT, USA. Oswaldo Cruz Foundation, Salvador, Brazil.
+27205899        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, Yale University, New Haven, Connecticut, United States of America. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Bahia, Brasil.
+27141082        Epidemiology of Microbial Disease Division, Yale School of Public Health, New Haven, Connecticut, USA. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Brazil.
+27113476        Department of Epidemiology of Microbial Disease, Yale School of Public Health, New Haven, CT, 06520, USA. Gonçalo Moniz Research Center, Oswaldo Cruz Foundation, Brazilian Ministry of Health, Salvador, Bahia, 40296-710, Brazil.
+27088272
+27453682        Department of Epidemiology of Microbial Diseases, Yale School of Public Health, 60 College St, New Haven, United States of America, CT 06511. Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador, Brasil, 40296-710.
+26733693        From the Centro de Pesquisas Gonçalo Moniz, Fundação Oswaldo Cruz, Ministério da Saúde, Salvador 40296-710, Brazil (Costa and Pertile); Providence College, 1 Cunningham Square, Providence, RI 02918 (Richardson and Burak); Instituto de Saúde Coletiva, Universidade Federal da Bahia, UFBA, Salvador 40.110-040, Brazil (Costa); Department of Epidemiology of Microbial Disease, Yale School of Public Health, 60 College Street, New Haven, CT 06511 (Costa, Childs, and Ko); Institute of Integrative Biology, University of Liverpool, Liverpool L69 7ZB, UK (Costa); Department of Ecology and Evolutionary Biology, Yale University, 21 Sachem Street, New Haven, CT 06520-8106 (Dion, Mariani, and Caccone).
+
+kn338@KN338-WIN7 ~
+$ efetch -db pubmed -id 28555073,28291747,28141801,28300969,28138046,28221118,27927858,28352293,27914834,27780498,27812211,27798305,27551005,27454521,27645785,27487084,27716170,27205899,27141082,27113476,27088272,27453682,26733693 -format xml |\xtract -pattern Author -if Identifier -sep " " -element LastName,Initials Identifier
+Lindow JC       http://orcid.org/0000-0003-3235-3698
+Popper SJ       http://orcid.org/0000-0002-2001-945X
+Lee PJ  http://orcid.org/0000-0001-9906-1628
+Hagan JE        http://orcid.org/0000-0002-1837-6319
+Kim CC  http://orcid.org/0000-0001-6474-8227
+Puckett EE      http://orcid.org/0000-0002-9325-4629
+Munshi-South J  http://orcid.org/0000-0002-8067-4341
+Casanovas-Massana A     http://orcid.org/0000-0002-3301-6143
+Croda J http://orcid.org/0000-0002-6665-6825
+Parpia AS       0000-0002-9083-1929
+
+kn338@KN338-WIN7 ~
+$ efetch -db pubmed -query "yale school of public health[ad] -format xml |\xtract -pattern Author -if Identifier -sep " " -element LastName,Initials Identifier                                                                                                                > ^C
+
+kn338@KN338-WIN7 ~
+$ efetch -db pubmed -query "yale school of public health[ad] AND ("2016/01/01"[PDAT] : "2016/12/31"[PDAT])" -format xml |\xtract -pattern Author -if Identifier -sep " " -element LastName,Initials Identifier > orcids.txt
+Unknown option: query
+
+Format Selection
+
+  -format        Format of record or report
+  -mode          text, xml, asn.1, json
+  -style         withparts, conwithfeat
+
+Direct Record Selection
+
+  -db            Database name
+  -id            Unique identifier or accession number
+
+Sequence Range
+
+  -seq_start     First sequence position to retrieve
+  -seq_stop      Last sequence position to retrieve
+  -strand        Strand of DNA to retrieve
+
+Gene Range
+
+  -chr_start     Sequence range from 0-based coordinates
+  -chr_stop        in gene docsum GenomicInfoType object
+
+Sequence Flags
+
+  -complexity    0 = default, 1 = bioseq, 3 = nuc-prot set
+  -extend        Extend sequence retrieval in both directions
+  -extrafeat     Bit flag specifying extra features
+
+Miscellaneous
+
+  -raw           Skip database-specific XML modifications
+
+Format Examples
+
+  -db            -format            -mode    Report Type
+  ___            _______            _____    ___________
+
+  (all)
+                 docsum                      DocumentSummarySet XML
+                 docsum             json     DocumentSummarySet JSON
+                 full                        Same as native except for mesh
+                 uid                         Unique Identifier List
+                 url                         Entrez URL
+                 xml                         Same as -format full -mode xml
+
+  bioproject
+                 native                      BioProject Report
+                 native             xml      RecordSet XML
+
+  biosample
+                 native                      BioSample Report
+                 native             xml      BioSampleSet XML
+
+  biosystems
+                 native             xml      Sys-set XML
+
+  gds
+                 native             xml      RecordSet XML
+                 summary                     Summary
+
+  gene
+                 gene_table                  Gene Table
+                 native                      Gene Report
+                 native             asn.1    Entrezgene ASN.1
+                 native             xml      Entrezgene-Set XML
+                 tabular                     Tabular Report
+
+  homologene
+                 alignmentscores             Alignment Scores
+                 fasta                       FASTA
+                 homologene                  Homologene Report
+                 native                      Homologene List
+                 native             asn.1    HG-Entry ASN.1
+                 native             xml      Entrez-Homologene-Set XML
+
+  mesh
+                 full                        Full Record
+                 native                      MeSH Report
+                 native             xml      RecordSet XML
+
+  nlmcatalog
+                 native                      Full Record
+                 native             xml      NLMCatalogRecordSet XML
+
+  pmc
+                 medline                     MEDLINE
+                 native             xml      pmc-articleset XML
+
+  pubmed
+                 abstract                    Abstract
+                 medline                     MEDLINE
+                 native             asn.1    Pubmed-entry ASN.1
+                 native             xml      PubmedArticleSet XML
+
+  (sequences)
+                 acc                         Accession Number
+                 est                         EST Report
+                 fasta                       FASTA
+                 fasta              xml      TinySeq XML
+                 fasta_cds_aa                FASTA of CDS Products
+                 fasta_cds_na                FASTA of Coding Regions
+                 ft                          Feature Table
+                 gb                          GenBank Flatfile
+                 gb                 xml      GBSet XML
+                 gbc                xml      INSDSet XML
+                 gene_fasta                  FASTA of Gene
+                 gp                          GenPept Flatfile
+                 gp                 xml      GBSet XML
+                 gpc                xml      INSDSet XML
+                 gss                         GSS Report
+                 ipg                         Identical Protein Report
+                 ipg                xml      IPGReportSet XML
+                 native             text     Seq-entry ASN.1
+                 native             xml      Bioseq-set XML
+                 seqid                       Seq-id ASN.1
+
+  snp
+                 chr                         Chromosome Report
+                 docset                      Summary
+                 fasta                       FASTA
+                 flt                         Flat File
+                 native             asn.1    Rs ASN.1
+                 native             xml      ExchangeSet XML
+                 rsr                         RS Cluster Report
+                 ssexemplar                  SS Exemplar List
+
+  sra
+                 native             xml      EXPERIMENT_PACKAGE_SET XML
+                 runinfo            xml      SraRunInfo XML
+
+  structure
+                 mmdb                        Ncbi-mime-asn1 strucseq ASN.1
+                 native                      MMDB Report
+                 native             xml      RecordSet XML
+
+  taxonomy
+                 native                      Taxonomy List
+                 native             xml      TaxaSet XML
+
+
+kn338@KN338-WIN7 ~
+$ esearch -db pubmed -query "yale school of public health[ad] AND ("2016/01/01"[PDAT] : "2016/12/31"[PDAT])" | efetch -format xml |\xtract -pattern Author -if Identifier -sep " " -element LastName,Initials Identifier > orcids.txt
+
+kn338@KN338-WIN7 ~
+$
